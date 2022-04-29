@@ -12,7 +12,7 @@
 
 body { 
     font-family: PT Mono;
-    background-image: url(pexels-scott-webb-430207.jpg);
+    background-image: linear-gradient(to bottom right, #81FFEF, #F067B4);
     background-size: 100%;
     border: none;
     margin: 0; 
@@ -20,7 +20,7 @@ body {
 }
 
 .header{ 
-    background-color: #f5d6eb;
+    /* background-color: rgba(24s5, 129, 255, 0.2); */
     padding: 10px;
 
 }
@@ -36,6 +36,12 @@ body {
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.box:hover{ 
+ 
+    transform: translate(0, -5px);
+    
 }
 
 .center { 
